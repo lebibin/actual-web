@@ -10,6 +10,6 @@ ENV NODE_ENV=production
 ADD . .
 
 RUN yarn add @actual-app/web
-RUN cd node_modules/@actual-app/web/build
+WORKDIR node_modules/@actual-app/web/build
 
 CMD ["npx", "http-server", "."]
