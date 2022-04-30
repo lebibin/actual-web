@@ -1,0 +1,9 @@
+{
+  "name": "actual-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@actual-app/web": "^4.0.2"
+  }
+}
